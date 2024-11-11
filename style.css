@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header-wrapper{
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    font-weight: 200px;
+        font-size: 0.75em;
+}
+.link-wrapper ul{
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+  padding: 10px;
+}
+.link-wrapper ul img{
+    width: 18px;
+    height: 21px;
+}
+.link-wrapper ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+
+}
+.link-wrapper ul li a:hover{
+    opacity: 1;
+}
