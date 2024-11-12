@@ -98,3 +98,39 @@ body{
 .second-highlight-wrapper .links-wrapper ul li a:hover{
     color: #fff;
 }
+
+/* ====third-highlight-styling=== */
+
+.third-internal-wrapper{
+    display: flex;
+    padding: 50px 0;
+    margin: 0 10px;
+}
+.third-left-wrapper{
+    background-image: url(images/home/watch-series-5.jpg);
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+.third-right-wrapper{
+    background-image: url(images/home/apple-card.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    margin-left: 5px;
+
+}
+.third-internal-wrapper{
+    text-align: center;
+
+}
+.product-image{
+    margin: 20px;
+}
+.third-highlight-wrapper .product-description{
+    font-size: 30px;
+    text-align: center;
+}
