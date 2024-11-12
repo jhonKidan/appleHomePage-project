@@ -6,9 +6,12 @@ img{
     max-width: 100%;
 
 }
+
 body{
     font-size: 20px;
     font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .header-wrapper{
@@ -38,4 +41,34 @@ body{
 }
 .link-wrapper ul li a:hover{
     opacity: 1;
+}
+/* ====first-highlight-styling=== */
+.first-highlight-wrapper{
+    text-align: center;
+    padding: 30px;
+    background-color: #fafafa;
+}
+.product-model{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.product-title{
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.product-description{
+    font-size: 35px;
+}
+.links-wrapper ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-block: 20px;
+}
+.links-wrapper ul li a{
+    text-decoration: none;
+    color: #06c;
+}
+.links-wrapper ul li a:hover{
+   color: black;
 }
