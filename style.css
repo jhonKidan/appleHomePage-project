@@ -105,6 +105,7 @@ body{
     display: flex;
     padding: 50px 0;
     margin: 0 10px;
+    height: 580px;
 }
 .third-left-wrapper{
     background-image: url(images/home/watch-series-5.jpg);
@@ -133,4 +134,64 @@ body{
 .third-highlight-wrapper .product-description{
     font-size: 30px;
     text-align: center;
+}
+
+/* ====fourth highlight styling=== */
+
+.fourth-highlight-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 10px 20px;
+
+
+    
+}
+.fourth-leftside-wrapper{
+    background-image: url(images/home/apple-tv-background.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-right: 5px;
+    width: 100%;
+}
+.fourth-rightside-wrapper{
+    background-color: black;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.apple-tv-image{
+    padding-block: 50px;
+}
+.fourth-highlight-wrapper .servant-logo{
+    padding-top: 120px;
+}
+.trailer-link{
+   padding-top: 230px;
+
+}
+.trailer-link a{
+    text-decoration: none;
+}
+.trailer-link a:hover{
+    color: black;
+}
+.fourth-rightside-wrapper{
+    color: #fff;
+    text-align: center;
+}
+.fourth-rightside-wrapper .product-title{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.fourth-rightside-wrapper .product-description{
+   font-size: 30px;
+}
+.fourth-rightside-wrapper .links-wrapper ul li a:hover{
+    color: #fff;
 }
